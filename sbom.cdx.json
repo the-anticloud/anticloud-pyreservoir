@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:67254eb7-1cd9-5528-b8d0-1b8db133528f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:57:32Z",
+    "component": {
+      "type": "application",
+      "name": "PYRESERVOIR",
+      "version": "66b3aefe3741",
+      "bom-ref": "pkg:generic/anticloud/PYRESERVOIR@66b3aefe3741",
+      "purl": "pkg:generic/anticloud/PYRESERVOIR@66b3aefe3741",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "66b3aefe37413c19761598b8b7eefcd4debbb47e"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/yohanesnuwara/pyreservoir"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
