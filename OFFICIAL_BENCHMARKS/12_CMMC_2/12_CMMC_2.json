@@ -1,0 +1,21 @@
+{
+ "framework": "12_CMMC_2",
+ "title": "CMMC 2.0 Level 2 (NIST SP 800-171)",
+ "project": "PYRESERVOIR",
+ "basis": [
+  {
+   "check": "10_nist_sp_800_53",
+   "status": "PASS",
+   "observed": "12/12 controls evidenced (100.0%)"
+  },
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "head=7fa76b2e5eccfc227a284d27c6e850dd85e9ac16 commits=1 clea"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "48fe7b3fe2b2239d3791a572ce18ed3cb74da76cbe9139bd39546608efe345e2",
+ "register_sha3": "f724f1f18d9fac41fdf239d7920340742aba1a8618ce5a309f0b6a44b53be67b"
+}
